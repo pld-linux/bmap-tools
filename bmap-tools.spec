@@ -42,13 +42,12 @@ narzędzi, takich jak "dd" lub "cp".
 %setup -q
 
 %build
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__python} setup.py install \
-	--optimize=2 \
+%py_install \
 	--prefix=%{_prefix} \
 	--root=$RPM_BUILD_ROOT
 
