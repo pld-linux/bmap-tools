@@ -9,7 +9,7 @@ Source0:	ftp://ftp.infradead.org/pub/bmap-tools/%{name}-%{version}.tgz
 # Source0-md5:	92cdad1cb4dfa0cca7176c8e22752616
 URL:		https://source.tizen.org/documentation/reference/bmaptool
 BuildRequires:	python-distribute
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-modules >= 1:2.7
 Requires:	python-pygpgme
 Suggests:	gzip
